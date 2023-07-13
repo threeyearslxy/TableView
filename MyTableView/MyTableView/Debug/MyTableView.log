@@ -1,0 +1,16 @@
+﻿  moc TableModel.h
+   F:\project\vs2015\MyTableView\MyTableView\TableModel.h(29): Warning: Class TableModel inherits from two QObject subclasses QObject and QAbstractTableModel. This is not supported!
+  MyTableView.cpp
+  TableModel.cpp
+f:\project\vs2015\mytableview\mytableview\TableModel.h(14): warning C4584: “TableModel”: 基类“QObject”已是“QAbstractTableModel”的基类 (编译源文件 TableModel.cpp)
+  d:\qt\qt5.10.1\5.10.1\msvc2015\include\qtcore\qobject.h(118): note: 参见“QObject”的声明 (编译源文件 TableModel.cpp)
+  d:\qt\qt5.10.1\5.10.1\msvc2015\include\qtcore\qabstractitemmodel.h(365): note: 参见“QAbstractTableModel”的声明 (编译源文件 TableModel.cpp)
+f:\project\vs2015\mytableview\mytableview\TableModel.h(14): warning C4584: “TableModel”: 基类“QObject”已是“QAbstractTableModel”的基类 (编译源文件 MyTableView.cpp)
+  D:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore/qcoreevent.h(347): note: 参见“QObject”的声明 (编译源文件 MyTableView.cpp)
+  D:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore/qabstractitemmodel.h(365): note: 参见“QAbstractTableModel”的声明 (编译源文件 MyTableView.cpp)
+  moc_TableModel.cpp
+f:\project\vs2015\mytableview\mytableview\debug\moc\../../TableModel.h(14): warning C4584: “TableModel”: 基类“QObject”已是“QAbstractTableModel”的基类
+  d:\qt\qt5.10.1\5.10.1\msvc2015\include\qtcore\qobject.h(118): note: 参见“QObject”的声明
+  d:\qt\qt5.10.1\5.10.1\msvc2015\include\qtcore\qabstractitemmodel.h(365): note: 参见“QAbstractTableModel”的声明
+  MyTableView.vcxproj -> F:\project\vs2015\MyTableView\Debug\MyTableView.exe
+  MyTableView.vcxproj -> F:\project\vs2015\MyTableView\Debug\MyTableView.pdb (Full PDB)
